@@ -19,6 +19,18 @@
       "name": "Nerolac",
       "color": "#1769e0",
       "rateListDate": "2025-12-27"
+    },
+    {
+      "id": "birla",
+      "name": "Birla",
+      "color": "#38536c",
+      "rateListDate": "2025-12-23"
+    },
+    {
+      "id": "perma",
+      "name": "Perma",
+      "color": "#38536c",
+      "rateListDate": "2025-12-23"
     }
   ],
   "items": [
@@ -80,7 +92,7 @@
       "name": "Tractor Sparc Ultra",
       "category": "Interior",
       "image": "public/images/asian-tractor-sparc-ultra.jpg",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
@@ -184,7 +196,7 @@
       "name": "Tractor Emulsion",
       "category": "Interior",
       "image": "public/images/asian-tractor-emulsion.jpg",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
@@ -236,7 +248,7 @@
       "name": "Tractor Emulsion Shine",
       "category": "Interior",
       "image": "public/images/asian-tractor-emulsion-shine.jpg",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
@@ -262,7 +274,7 @@
       "name": "Ace Emulsion",
       "category": "Interior",
       "image": "public/images/asian-ace-emulsion.jpg",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
@@ -630,19 +642,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 70
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 290
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 470
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 800
         }
       ]
     },
@@ -660,15 +672,15 @@
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 350
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 650
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 1250
         }
       ]
     },
@@ -682,19 +694,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 145
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 500
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 1100
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 2000
         }
       ]
     },
@@ -704,23 +716,23 @@
       "name": "Interior Sheen Emulsion",
       "category": "Interior",
       "image": "public/images/indigo-interior-sheen-emulsion.webp",
-      "needsCheck": false,
+      "needsCheck": true,
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 180
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 720
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 1470
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 2800
         }
       ]
     },
@@ -734,19 +746,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 160
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 600
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 1200
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 2200
         }
       ]
     },
@@ -760,19 +772,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 220
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 840
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 2100
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 4100
         }
       ]
     },
@@ -786,19 +798,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 350
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 1350
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 3100
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 5900
         }
       ]
     },
@@ -808,23 +820,23 @@
       "name": "Stain-free",
       "category": "Interior",
       "image": "public/images/indigo-stain-free.webp",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 400
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 1550
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 3820
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 7500
         }
       ]
     },
@@ -838,19 +850,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 600
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 2380
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 6100
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 12000
         }
       ]
     },
@@ -864,19 +876,19 @@
       "prices": [
         {
           "size": "1 L",
-          "price": ""
+          "price": 320
         },
         {
           "size": "4 L",
-          "price": ""
+          "price": 1250
         },
         {
           "size": "10 L",
-          "price": ""
+          "price": 2850
         },
         {
           "size": "20 L",
-          "price": ""
+          "price": 5600
         }
       ]
     },
@@ -964,7 +976,7 @@
       "name": "Beauty Little Master Sheen",
       "category": "Interior",
       "image": "public/images/nerolac-beauty-little-master-sheen.jpg",
-      "needsCheck": true,
+      "needsCheck": false,
       "prices": [
         {
           "size": "1 L",
@@ -1120,7 +1132,7 @@
       "name": "Excel Sheen",
       "category": "Interior",
       "image": "public/images/nerolac-excel-sheen.jpg",
-      "needsCheck": false,
+      "needsCheck": true,
       "prices": [
         {
           "size": "1 L",
@@ -1128,7 +1140,7 @@
         },
         {
           "size": "4 L",
-          "price": 1250
+          "price": 1300
         },
         {
           "size": "10 L",
@@ -1295,7 +1307,717 @@
           "price": ""
         }
       ]
+    },
+    {
+      "id": "indigo-d-b-u",
+      "brand": "indigo",
+      "name": "D.B.U.",
+      "category": "Interior",
+      "image": "public/images/indigo-superseal.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 600
+        },
+        {
+          "size": "4 L",
+          "price": 2380
+        },
+        {
+          "size": "10 L",
+          "price": 5800
+        },
+        {
+          "size": "20 L",
+          "price": 11400
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-putty-silver-series",
+      "brand": "indigo",
+      "name": "Indigo Putty (Silver Series)",
+      "category": "Putty",
+      "image": "public/images/indigo-putty-silver.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-putty-gold-series",
+      "brand": "indigo",
+      "name": "Indigo Putty (Gold Series)",
+      "category": "Putty",
+      "image": "public/images/indigo-putty-gold.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 750
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-waterproof-putty-gold-series",
+      "brand": "indigo",
+      "name": "Indigo Waterproof Putty (Gold Series)",
+      "category": "Putty",
+      "image": "public/images/indigo-putty-waterproof.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 1050
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-putty-fantasy",
+      "brand": "indigo",
+      "name": "Indigo Putty (Fantasy)",
+      "category": "Putty",
+      "image": "public/images/indigo-putty-gold.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 850
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-texture",
+      "brand": "indigo",
+      "name": "Indigo Texture",
+      "category": "Texture",
+      "image": "public/images/indigo-texture.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "25 kg",
+          "price": 1050
+        }
+      ]
+    },
+    {
+      "id": "indigo-reno-shield-texture",
+      "brand": "indigo",
+      "name": "Reno Shield Texture",
+      "category": "Texture",
+      "image": "public/images/indigo-texture.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "25 kg",
+          "price": 880
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-damp-block",
+      "brand": "indigo",
+      "name": "Indigo Damp Block",
+      "category": "Waterproofing",
+      "image": "public/images/indigo-superseal.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "3 kg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-polymer",
+      "brand": "indigo",
+      "name": "Indigo Polymer",
+      "category": "Waterproofing",
+      "image": "public/images/indigo-superseal.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 320
+        },
+        {
+          "size": "5 L",
+          "price": 1480
+        },
+        {
+          "size": "20 L",
+          "price": 2450
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-damp-seal",
+      "brand": "indigo",
+      "name": "Indigo Damp Seal",
+      "category": "Primer",
+      "image": "public/images/indigo-damp-seal.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 200
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1905
+        },
+        {
+          "size": "20 L",
+          "price": 3650
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-bronze-primer",
+      "brand": "indigo",
+      "name": "Indigo Bronze Primer",
+      "category": "Primer",
+      "image": "public/images/indigo-damp-seal.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 120
+        },
+        {
+          "size": "4 L",
+          "price": 440
+        },
+        {
+          "size": "10 L",
+          "price": 800
+        },
+        {
+          "size": "20 L",
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "indigo-indigo-dtc-primer",
+      "brand": "indigo",
+      "name": "Indigo DTC Primer",
+      "category": "Primer",
+      "image": "public/images/indigo-damp-seal.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 550
+        },
+        {
+          "size": "10 L",
+          "price": 1100
+        },
+        {
+          "size": "20 L",
+          "price": 2100
+        }
+      ]
+    },
+    {
+      "id": "nerolac-suraksha",
+      "brand": "nerolac",
+      "name": "Suraksha",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 160
+        },
+        {
+          "size": "4 L",
+          "price": 600
+        },
+        {
+          "size": "10 L",
+          "price": 1200
+        },
+        {
+          "size": "20 L",
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "nerolac-suraksha-plus",
+      "brand": "nerolac",
+      "name": "Suraksha Plus",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-plus.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1650
+        },
+        {
+          "size": "20 L",
+          "price": 3000
+        }
+      ]
+    },
+    {
+      "id": "nerolac-suraksha-plus-nxt",
+      "brand": "nerolac",
+      "name": "Suraksha Plus NXT",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-plus-nxt.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1780
+        },
+        {
+          "size": "20 L",
+          "price": 3400
+        }
+      ]
+    },
+    {
+      "id": "nerolac-suraksha-sheen",
+      "brand": "nerolac",
+      "name": "Suraksha Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-sheen.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-putty-without-token",
+      "brand": "nerolac",
+      "name": "Nerolac Putty (Without Token)",
+      "category": "Putty",
+      "image": "public/images/nerolac-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-cement-putty",
+      "brand": "nerolac",
+      "name": "Nerolac Cement Putty",
+      "category": "Putty",
+      "image": "public/images/nerolac-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 650
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-waterproof-putty",
+      "brand": "nerolac",
+      "name": "Nerolac Waterproof Putty",
+      "category": "Putty",
+      "image": "public/images/nerolac-perma-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 1050
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-economy-primer",
+      "brand": "nerolac",
+      "name": "Nerolac Economy Primer",
+      "category": "Primer",
+      "image": "public/images/nerolac-impression-sheen.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 120
+        },
+        {
+          "size": "4 L",
+          "price": 440
+        },
+        {
+          "size": "10 L",
+          "price": 800
+        },
+        {
+          "size": "20 L",
+          "price": 1450
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-economy-exterior-primer",
+      "brand": "nerolac",
+      "name": "Nerolac Economy Exterior Primer",
+      "category": "Primer",
+      "image": "public/images/nerolac-surasha-plus.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 550
+        },
+        {
+          "size": "10 L",
+          "price": 1100
+        },
+        {
+          "size": "20 L",
+          "price": 2100
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-modamp",
+      "brand": "nerolac",
+      "name": "Nerolac Modamp",
+      "category": "Primer",
+      "image": "public/images/nerolac-impression-ultra-hd.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 350
+        },
+        {
+          "size": "4 L",
+          "price": 1300
+        },
+        {
+          "size": "10 L",
+          "price": 2850
+        },
+        {
+          "size": "20 L",
+          "price": 5200
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-damp-protect-exterior",
+      "brand": "nerolac",
+      "name": "Nerolac Damp Protect Exterior",
+      "category": "Waterproofing",
+      "image": "public/images/nerolac-perma-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1905
+        },
+        {
+          "size": "20 L",
+          "price": 3650
+        }
+      ]
+    },
+    {
+      "id": "nerolac-nerolac-super-2k",
+      "brand": "nerolac",
+      "name": "Nerolac Super 2K",
+      "category": "Waterproofing",
+      "image": "public/images/nerolac-perma-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "3 kg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-asian-putty",
+      "brand": "asian-paints",
+      "name": "Asian Putty",
+      "category": "Putty",
+      "image": "public/images/asian-wall-putty.png",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 650
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-asian-waterproof-putty",
+      "brand": "asian-paints",
+      "name": "Asian Waterproof Putty",
+      "category": "Putty",
+      "image": "public/images/asian-wall-putty.png",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "40 kg",
+          "price": 1100
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-asian-damp-block-2k",
+      "brand": "asian-paints",
+      "name": "Asian Damp Block 2K",
+      "category": "Waterproofing",
+      "image": "public/images/asian-damp-proof-advanced.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "3 kg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-sparc-interior-wall-primer",
+      "brand": "asian-paints",
+      "name": "Sparc Interior Wall Primer",
+      "category": "Primer",
+      "image": "public/images/asian-sparc-interior-primer.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 120
+        },
+        {
+          "size": "4 L",
+          "price": 440
+        },
+        {
+          "size": "10 L",
+          "price": 920
+        },
+        {
+          "size": "20 L",
+          "price": 1600
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-sparc-ultra-primer",
+      "brand": "asian-paints",
+      "name": "Sparc Ultra Primer",
+      "category": "Primer",
+      "image": "public/images/asian-sparc-ultra-primer.png",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 120
+        },
+        {
+          "size": "4 L",
+          "price": 440
+        },
+        {
+          "size": "10 L",
+          "price": 980
+        },
+        {
+          "size": "20 L",
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-sparc-exterior-primer",
+      "brand": "asian-paints",
+      "name": "Sparc Exterior Primer",
+      "category": "Primer",
+      "image": "public/images/asian-sparc-exterior-primer.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 550
+        },
+        {
+          "size": "10 L",
+          "price": 1300
+        },
+        {
+          "size": "20 L",
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-sparc-exterior-ultra-primer",
+      "brand": "asian-paints",
+      "name": "Sparc Exterior Ultra Primer",
+      "category": "Primer",
+      "image": "public/images/asian-sparc-exterior-primer.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 550
+        },
+        {
+          "size": "10 L",
+          "price": 1300
+        },
+        {
+          "size": "20 L",
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "birla-birla-putty",
+      "brand": "birla",
+      "name": "Birla Putty",
+      "category": "Putty",
+      "image": "public/images/birla-putty.png",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "20 kg",
+          "price": 580
+        }
+      ]
+    },
+    {
+      "id": "birla-birla-white-cement",
+      "brand": "birla",
+      "name": "Birla White Cement",
+      "category": "Putty",
+      "image": "public/images/birla-white-cement.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 kg",
+          "price": 30
+        },
+        {
+          "size": "5 kg",
+          "price": 190
+        },
+        {
+          "size": "25 kg",
+          "price": 580
+        },
+        {
+          "size": "50 kg",
+          "price": 1050
+        }
+      ]
+    },
+    {
+      "id": "perma-perma-guard-2k",
+      "brand": "perma",
+      "name": "Perma Guard 2K",
+      "category": "Waterproofing",
+      "image": "public/images/nerolac-perma-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "15 kg",
+          "price": 1950
+        }
+      ]
+    },
+    {
+      "id": "perma-perma-hypercrete",
+      "brand": "perma",
+      "name": "Perma Hypercrete",
+      "category": "Waterproofing",
+      "image": "public/images/nerolac-perma-putty.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 320
+        },
+        {
+          "size": "5 L",
+          "price": 1480
+        },
+        {
+          "size": "20 L",
+          "price": 4500
+        }
+      ]
     }
   ],
-  "catalogVersion": 3
+  "catalogVersion": 4
 }

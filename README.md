@@ -1,32 +1,25 @@
-# Vishnu Hardwear
+# Vishnu Hardwear Paint Price List
 
-Offline-first paint price list for Vishnu Hardwear. Open `index.html` in a browser, or serve this folder from any static web host. The PWA caches the app after its first online visit; installed copies keep price and photo edits in browser storage.
+A mobile-friendly, offline-capable paint price catalog for Vishnu Hardwear. The home screen opens first; Browse Price List moves into searchable product cards with brand and product-type filters.
 
-## Starter data
+## Catalog data
 
-The included Nerolac price list is the preverified data supplied in the brief (27 Dec 2025). Three values are flagged for owner review: Beauty Little Master Sheen, 4 L (₹700); Beauty Little Master, 20 L (₹1,700; ₹1,800 was crossed out); Excel Everlast 14, 10 L (₹6,070; ₹610 was crossed out). No product image uploads were present, so all 16 products currently show the no-photo placeholder. The brief identifies a Nerolac Beauty Acrylic Distemper can photo, but that file was not attached.
+`data/seed.json` contains 84 products across Asian Paints, Indigo, Nerolac, Birla, and Perma. Prices and pack sizes are transcribed from the shop's handwritten notebook pages. Empty notebook entries remain “Update soon.” Hard-to-read, corrected, or crossed-out entries are flagged for owner review. No missing amount has been estimated.
 
-Owner mode starts with PIN `1234`. Change this PIN and configure your prices before sharing the app. Browser storage is per device. Use the named backup file to move a complete list, including uploaded images, to another device.
+- `data/rate-list-extracted.csv` — normalized source rows.
+- `data/image-matches.csv` — product image provenance and match notes.
+- `public/images/` — locally stored packshots used by the catalog and service worker.
 
-## Data files
+## Run locally
 
-- `data/seed.json`: app starter data.
-- `data/rate-list-extracted.csv`: source rows and review flags.
-- `data/image-matches.csv`: image match ledger (empty until product photos are supplied).
-- `input/rate-lists/` and `input/images/`: place source uploads here. Originals are excluded from Git by `.gitignore`.
-- `input/logo.png` or `input/logo.jpg`: optional shop logo. Without it, the app uses the VH mark in blue.
+Serve this directory with any static web server and open the root URL. The service worker caches the catalog, styles, scripts, and images after the first visit so the core price list works offline. Owner imports of XLSX files need an internet connection for the optional SheetJS library; CSV, browsing, search, and filters work offline.
 
-The UI lets owners import CSV, export the current list, bulk attach photos, and export or restore a JSON backup. CSV imports accept `brand, product, size, price, category, image`; blank price cells stay blank.
+Owner mode starts with PIN `1234`; change it on the device before sharing the app. Data edits are stored in that browser/device. Use the backup and restore controls to move data.
 
 ## Android
 
-Open `android/` in Android Studio and build the `app` debug variant. Package id: `com.vishnuhardwear.pricelist`. The WebView loads the same app from its assets, enables DOM storage, and includes a multi-select image picker. GitHub Actions builds a debug APK on pushes and publishes it as a workflow artifact.
+Open `android/` in Android Studio and build the app. Package id: `com.vishnuhardwear.pricelist`; displayed app name: `Vishnu Hardwear`.
 
-## GitHub Pages deployment
+## Branding
 
-The action in `.github/workflows/pages.yml` can deploy the static app to GitHub Pages after Pages is configured for GitHub Actions. A live link lets anyone who has it see the prices; share it only with staff. A private source repository does not make a deployed site private. Android APKs are available as Actions artifacts.
-
-## Brand
-
-Use the exact spelling **Vishnu Hardwear**. The browser title, manifest app name, Android app label, staff header, owner and PIN headings, and exported file names follow it. Repository name: `vishnu-hardwear-price-list` (private).
-
+Shop spelling: **Vishnu Hardwear**. Browser title, PWA name, Android label, screen headers, and exported filenames use this exact spelling. Without `input/logo.png` or `input/logo.jpg`, the app uses the VH icon.
