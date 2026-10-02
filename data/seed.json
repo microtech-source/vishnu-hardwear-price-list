@@ -1,0 +1,1301 @@
+{
+  "currency": "₹",
+  "pin": "1234",
+  "brands": [
+    {
+      "id": "asian-paints",
+      "name": "Asian Paints",
+      "color": "#e85b2a",
+      "rateListDate": "2025-12-31"
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo",
+      "color": "#57358d",
+      "rateListDate": "2025-12-30"
+    },
+    {
+      "id": "nerolac",
+      "name": "Nerolac",
+      "color": "#1769e0",
+      "rateListDate": "2025-12-27"
+    }
+  ],
+  "items": [
+    {
+      "id": "asian-paints-tractor-sparc",
+      "brand": "asian-paints",
+      "name": "Tractor Sparc",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-sparc.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 500
+        },
+        {
+          "size": "10 L",
+          "price": 980
+        },
+        {
+          "size": "20 L",
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-tractor-sparc-shine",
+      "brand": "asian-paints",
+      "name": "Tractor Sparc Shine",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-sparc-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 500
+        },
+        {
+          "size": "10 L",
+          "price": 1100
+        },
+        {
+          "size": "20 L",
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-tractor-sparc-ultra",
+      "brand": "asian-paints",
+      "name": "Tractor Sparc Ultra",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-sparc-ultra.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 500
+        },
+        {
+          "size": "10 L",
+          "price": 1100
+        },
+        {
+          "size": "20 L",
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-sparc",
+      "brand": "asian-paints",
+      "name": "Ace Sparc",
+      "category": "Exterior",
+      "image": "public/images/asian-ace-sparc.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 160
+        },
+        {
+          "size": "4 L",
+          "price": 600
+        },
+        {
+          "size": "10 L",
+          "price": 1200
+        },
+        {
+          "size": "20 L",
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-sparc-shine",
+      "brand": "asian-paints",
+      "name": "Ace Sparc Shine",
+      "category": "Exterior",
+      "image": "public/images/asian-ace-sparc-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 160
+        },
+        {
+          "size": "4 L",
+          "price": 600
+        },
+        {
+          "size": "10 L",
+          "price": 1300
+        },
+        {
+          "size": "20 L",
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-sparc-ultra",
+      "brand": "asian-paints",
+      "name": "Ace Sparc Ultra",
+      "category": "Exterior",
+      "image": "public/images/asian-ace-sparc-ultra.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 160
+        },
+        {
+          "size": "4 L",
+          "price": 600
+        },
+        {
+          "size": "10 L",
+          "price": 1300
+        },
+        {
+          "size": "20 L",
+          "price": 2400
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-tractor-emulsion",
+      "brand": "asian-paints",
+      "name": "Tractor Emulsion",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-emulsion.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 180
+        },
+        {
+          "size": "4 L",
+          "price": 720
+        },
+        {
+          "size": "10 L",
+          "price": 1550
+        },
+        {
+          "size": "20 L",
+          "price": 2950
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-tractor-emulsion-ultra",
+      "brand": "asian-paints",
+      "name": "Tractor Emulsion Ultra",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-emulsion-ultra.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 180
+        },
+        {
+          "size": "4 L",
+          "price": 720
+        },
+        {
+          "size": "10 L",
+          "price": 1550
+        },
+        {
+          "size": "20 L",
+          "price": 2950
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-tractor-emulsion-shine",
+      "brand": "asian-paints",
+      "name": "Tractor Emulsion Shine",
+      "category": "Interior",
+      "image": "public/images/asian-tractor-emulsion-shine.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1950
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-emulsion",
+      "brand": "asian-paints",
+      "name": "Ace Emulsion",
+      "category": "Interior",
+      "image": "public/images/asian-ace-emulsion.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1950
+        },
+        {
+          "size": "20 L",
+          "price": 3300
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-emulsion-ultra",
+      "brand": "asian-paints",
+      "name": "Ace Emulsion Ultra",
+      "category": "Interior",
+      "image": "public/images/asian-ace-emulsion-ultra.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1950
+        },
+        {
+          "size": "20 L",
+          "price": 3700
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-ace-emulsion-shine",
+      "brand": "asian-paints",
+      "name": "Ace Emulsion Shine",
+      "category": "Interior",
+      "image": "public/images/asian-ace-emulsion-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1950
+        },
+        {
+          "size": "20 L",
+          "price": 3800
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-apex",
+      "brand": "asian-paints",
+      "name": "Apex",
+      "category": "Exterior",
+      "image": "public/images/asian-apex.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 350
+        },
+        {
+          "size": "4 L",
+          "price": 1300
+        },
+        {
+          "size": "10 L",
+          "price": 3100
+        },
+        {
+          "size": "20 L",
+          "price": 5600
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-apex-shine",
+      "brand": "asian-paints",
+      "name": "Apex Shine",
+      "category": "Exterior",
+      "image": "public/images/asian-apex-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 350
+        },
+        {
+          "size": "4 L",
+          "price": 1300
+        },
+        {
+          "size": "10 L",
+          "price": 3100
+        },
+        {
+          "size": "20 L",
+          "price": 5900
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-apex-shine-ultra",
+      "brand": "asian-paints",
+      "name": "Apex Shine Ultra",
+      "category": "Exterior",
+      "image": "public/images/asian-apex-shine-ultra.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 350
+        },
+        {
+          "size": "4 L",
+          "price": 1300
+        },
+        {
+          "size": "10 L",
+          "price": 3100
+        },
+        {
+          "size": "20 L",
+          "price": 5900
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-premium-emulsion",
+      "brand": "asian-paints",
+      "name": "Premium Emulsion",
+      "category": "Interior",
+      "image": "public/images/asian-premium-emulsion.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 400
+        },
+        {
+          "size": "4 L",
+          "price": 1550
+        },
+        {
+          "size": "10 L",
+          "price": 3820
+        },
+        {
+          "size": "20 L",
+          "price": 7250
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-premium-all-protect-shine",
+      "brand": "asian-paints",
+      "name": "Premium All Protect Shine",
+      "category": "Interior",
+      "image": "public/images/asian-premium-all-protect-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-apex-ultima",
+      "brand": "asian-paints",
+      "name": "Apex Ultima",
+      "category": "Exterior",
+      "image": "public/images/asian-apex-ultima.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-apex-ultima-protek",
+      "brand": "asian-paints",
+      "name": "Apex Ultima Protek",
+      "category": "Exterior",
+      "image": "public/images/asian-apex-ultima-protek.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-royal",
+      "brand": "asian-paints",
+      "name": "Royal",
+      "category": "Interior",
+      "image": "public/images/asian-royal.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-royal-shine",
+      "brand": "asian-paints",
+      "name": "Royal Shine",
+      "category": "Interior",
+      "image": "public/images/asian-royal-shine.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-royal-glitz",
+      "brand": "asian-paints",
+      "name": "Royal Glitz",
+      "category": "Interior",
+      "image": "public/images/asian-royal-glitz.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asian-paints-damp-proof-advanced",
+      "brand": "asian-paints",
+      "name": "Damp Proof Advanced",
+      "category": "Waterproofing",
+      "image": "public/images/asian-damp-proof-advanced.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-distemper",
+      "brand": "indigo",
+      "name": "Distemper",
+      "category": "Distemper",
+      "image": "public/images/indigo-distemper.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-distemper-gold",
+      "brand": "indigo",
+      "name": "Distemper Gold",
+      "category": "Distemper",
+      "image": "public/images/indigo-distemper-gold.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-interior-emulsion",
+      "brand": "indigo",
+      "name": "Interior Emulsion",
+      "category": "Interior",
+      "image": "public/images/indigo-interior-emulsion.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-interior-sheen-emulsion",
+      "brand": "indigo",
+      "name": "Interior Sheen Emulsion",
+      "category": "Interior",
+      "image": "public/images/indigo-interior-sheen-emulsion.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-exterior-emulsion-silver",
+      "brand": "indigo",
+      "name": "Exterior Emulsion (Silver)",
+      "category": "Exterior",
+      "image": "public/images/indigo-exterior-emulsion-silver.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-exterior-sheen-gold-emulsion",
+      "brand": "indigo",
+      "name": "Exterior Sheen (Gold) Emulsion",
+      "category": "Exterior",
+      "image": "public/images/indigo-exterior-sheen-gold-emulsion.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-xt-sheen-emulsion",
+      "brand": "indigo",
+      "name": "XT Sheen Emulsion",
+      "category": "Interior",
+      "image": "public/images/indigo-xt-sheen-emulsion.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-stain-free",
+      "brand": "indigo",
+      "name": "Stain-free",
+      "category": "Interior",
+      "image": "public/images/indigo-stain-free.webp",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-luxury-emulsion",
+      "brand": "indigo",
+      "name": "Luxury Emulsion",
+      "category": "Interior",
+      "image": "public/images/indigo-luxury-emulsion.webp",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "indigo-leak-proof-emulsion",
+      "brand": "indigo",
+      "name": "Leak Proof Emulsion",
+      "category": "Waterproofing",
+      "image": "public/images/indigo-leak-proof-emulsion.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": ""
+        },
+        {
+          "size": "4 L",
+          "price": ""
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "nerolac-beauty-gold-washable",
+      "brand": "nerolac",
+      "name": "Beauty Gold Washable",
+      "category": "Interior",
+      "image": "public/images/nerolac-beauty-gold-washable.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 400
+        },
+        {
+          "size": "4 L",
+          "price": 1550
+        },
+        {
+          "size": "10 L",
+          "price": 3570
+        },
+        {
+          "size": "20 L",
+          "price": 6800
+        }
+      ]
+    },
+    {
+      "id": "nerolac-beauty-gold-washable-nxt",
+      "brand": "nerolac",
+      "name": "Beauty Gold Washable NXT",
+      "category": "Interior",
+      "image": "public/images/nerolac-beauty-gold-washable-nxt.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 400
+        },
+        {
+          "size": "4 L",
+          "price": 1550
+        },
+        {
+          "size": "10 L",
+          "price": 3820
+        },
+        {
+          "size": "20 L",
+          "price": 7500
+        }
+      ]
+    },
+    {
+      "id": "nerolac-beauty-little-master",
+      "brand": "nerolac",
+      "name": "Beauty Little Master",
+      "category": "Interior",
+      "image": "public/images/nerolac-beauty-little-master.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 145
+        },
+        {
+          "size": "4 L",
+          "price": 500
+        },
+        {
+          "size": "10 L",
+          "price": 980
+        },
+        {
+          "size": "20 L",
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "nerolac-beauty-little-master-sheen",
+      "brand": "nerolac",
+      "name": "Beauty Little Master Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-beauty-little-master-sheen.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 180
+        },
+        {
+          "size": "4 L",
+          "price": 700
+        },
+        {
+          "size": "10 L",
+          "price": 1470
+        },
+        {
+          "size": "20 L",
+          "price": 2800
+        }
+      ]
+    },
+    {
+      "id": "nerolac-beauty-smooth-nxt",
+      "brand": "nerolac",
+      "name": "Beauty Smooth NXT",
+      "category": "Interior",
+      "image": "public/images/nerolac-beauty-smooth-nxt.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 180
+        },
+        {
+          "size": "4 L",
+          "price": 720
+        },
+        {
+          "size": "10 L",
+          "price": 1670
+        },
+        {
+          "size": "20 L",
+          "price": 3200
+        }
+      ]
+    },
+    {
+      "id": "nerolac-distemper",
+      "brand": "nerolac",
+      "name": "Distemper",
+      "category": "Distemper",
+      "image": "public/images/nerolac-distemper.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 70
+        },
+        {
+          "size": "4 L",
+          "price": 290
+        },
+        {
+          "size": "10 L",
+          "price": 470
+        },
+        {
+          "size": "20 L",
+          "price": 800
+        }
+      ]
+    },
+    {
+      "id": "nerolac-excel-everlast-14",
+      "brand": "nerolac",
+      "name": "Excel Everlast 14",
+      "category": "Exterior",
+      "image": "public/images/nerolac-excel-everlast-14.jpg",
+      "needsCheck": true,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 600
+        },
+        {
+          "size": "4 L",
+          "price": 2380
+        },
+        {
+          "size": "10 L",
+          "price": 6070
+        },
+        {
+          "size": "20 L",
+          "price": 12000
+        }
+      ]
+    },
+    {
+      "id": "nerolac-excel-mica-marble-stretch-sheen",
+      "brand": "nerolac",
+      "name": "Excel Mica Marble Stretch & Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-excel-mica-marble-stretch-sheen.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 400
+        },
+        {
+          "size": "4 L",
+          "price": 1550
+        },
+        {
+          "size": "10 L",
+          "price": 3820
+        },
+        {
+          "size": "20 L",
+          "price": 6800
+        }
+      ]
+    },
+    {
+      "id": "nerolac-excel-mica-marble-stretch-sheen-nxt",
+      "brand": "nerolac",
+      "name": "Excel Mica Marble Stretch & Sheen NXT",
+      "category": "Interior",
+      "image": "public/images/nerolac-excel-mica-marble-stretch-sheen-nxt.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 400
+        },
+        {
+          "size": "4 L",
+          "price": 1550
+        },
+        {
+          "size": "10 L",
+          "price": 3820
+        },
+        {
+          "size": "20 L",
+          "price": 7500
+        }
+      ]
+    },
+    {
+      "id": "nerolac-excel-sheen",
+      "brand": "nerolac",
+      "name": "Excel Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-excel-sheen.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 350
+        },
+        {
+          "size": "4 L",
+          "price": 1250
+        },
+        {
+          "size": "10 L",
+          "price": 2950
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "nerolac-impression-sheen",
+      "brand": "nerolac",
+      "name": "Impression Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-impression-sheen.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 520
+        },
+        {
+          "size": "4 L",
+          "price": 2060
+        },
+        {
+          "size": "10 L",
+          "price": 4700
+        },
+        {
+          "size": "20 L",
+          "price": 9200
+        }
+      ]
+    },
+    {
+      "id": "nerolac-impression-ultra-hd",
+      "brand": "nerolac",
+      "name": "Impression Ultra HD",
+      "category": "Interior",
+      "image": "public/images/nerolac-impression-ultra-hd.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 600
+        },
+        {
+          "size": "4 L",
+          "price": 2380
+        },
+        {
+          "size": "10 L",
+          "price": 5800
+        },
+        {
+          "size": "20 L",
+          "price": 11400
+        }
+      ]
+    },
+    {
+      "id": "nerolac-surasha",
+      "brand": "nerolac",
+      "name": "Surasha",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 160
+        },
+        {
+          "size": "4 L",
+          "price": 600
+        },
+        {
+          "size": "10 L",
+          "price": 1200
+        },
+        {
+          "size": "20 L",
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": "nerolac-surasha-plus",
+      "brand": "nerolac",
+      "name": "Surasha Plus",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-plus.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1650
+        },
+        {
+          "size": "20 L",
+          "price": 3000
+        }
+      ]
+    },
+    {
+      "id": "nerolac-surasha-plus-nxt",
+      "brand": "nerolac",
+      "name": "Surasha Plus NXT",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-plus-nxt.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": 1780
+        },
+        {
+          "size": "20 L",
+          "price": 3400
+        }
+      ]
+    },
+    {
+      "id": "nerolac-surasha-sheen",
+      "brand": "nerolac",
+      "name": "Surasha Sheen",
+      "category": "Interior",
+      "image": "public/images/nerolac-surasha-sheen.jpg",
+      "needsCheck": false,
+      "prices": [
+        {
+          "size": "1 L",
+          "price": 220
+        },
+        {
+          "size": "4 L",
+          "price": 840
+        },
+        {
+          "size": "10 L",
+          "price": ""
+        },
+        {
+          "size": "20 L",
+          "price": ""
+        }
+      ]
+    }
+  ],
+  "catalogVersion": 3
+}
